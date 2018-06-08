@@ -1,0 +1,76 @@
+{
+  "_from": "react-native-google-analytics-bridge-gcloudappengine@^1.0.0",
+  "_id": "react-native-google-analytics-bridge-gcloudappengine@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-yKgMwJIGH8OAC23wSdC+KTcv2I7pQ4/lomytoBEvsyLWnkenHeGkSZlvAshkbNe0QEl8sI18kCAJAvUXZIQoIw==",
+  "_location": "/react-native-google-analytics-bridge-gcloudappengine",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-google-analytics-bridge-gcloudappengine@^1.0.0",
+    "name": "react-native-google-analytics-bridge-gcloudappengine",
+    "escapedName": "react-native-google-analytics-bridge-gcloudappengine",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-google-analytics-bridge-gcloudappengine/-/react-native-google-analytics-bridge-gcloudappengine-1.0.0.tgz",
+  "_shasum": "7fb38cc9a596b3e3493bac92aefdd45bfcec6a2d",
+  "_spec": "react-native-google-analytics-bridge-gcloudappengine@^1.0.0",
+  "_where": "/Users/cotizadoresgnp/Documents/projects/rcumbrella",
+  "author": {
+    "name": "Idéhub AS"
+  },
+  "bugs": {
+    "url": "https://github.com/gcloudappengine/react-native-google-analytics-bridge-gcloudappengine.git/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React Native bridge for using native Google Analytics libraries on iOS and Android",
+  "devDependencies": {
+    "dtslint": "^0.2.0"
+  },
+  "homepage": "https://github.com/gcloudappengine/react-native-google-analytics-bridge-gcloudappengine.git#readme",
+  "keywords": [
+    "react",
+    "native",
+    "google",
+    "analytics",
+    "tracking",
+    "native",
+    "bridge",
+    "events",
+    "screen",
+    "hits",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "react-native-google-analytics-bridge-gcloudappengine",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcloudappengine/react-native-google-analytics-bridge-gcloudappengine.git.git"
+  },
+  "rnpm": {
+    "ios": {
+      "sharedLibraries": [
+        "CoreData.framework",
+        "SystemConfiguration.framework",
+        "libz.tbd",
+        "libsqlite3.0.tbd"
+      ]
+    }
+  },
+  "scripts": {
+    "dtslint": "dtslint types",
+    "test": "npm run dtslint"
+  },
+  "types": "types/index.d.ts",
+  "version": "1.0.0"
+}
